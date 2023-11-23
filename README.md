@@ -36,4 +36,4 @@ PagoFechaMetodo
             var results = await _unitOfWork.Pagos.GetPagosFechaMetodo();
             return _mapper.Map<List<PagosFechaMetodoDto>>(results);
         }
-
+Se realizo el la busqueda de todos los pagos que se realizaron en el año 2008 usando PayPal, se realizo este porceso usando Interfaces, repositorios. 
